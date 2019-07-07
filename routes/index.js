@@ -15,5 +15,10 @@ router.get('/test2', function(req, res, next) {
     test2: "OK"
   })
 });
+router.get('/test3', function(req, res, next) {
+  res.status(200).json({
+    test3: "OK"
+  })
+});
 
 module.exports = router;
